@@ -10,8 +10,8 @@ from torch import autocast
 from diffusers import StableDiffusionPipeline
 import torch
 
-organization = 'org-EvWopVgEuGbYlCBGz0bbJDoF'
-open_api_key = "sk-zv0P4MDjgo3TkMWiv8nNmzMPyx8vEzljanmQha0XBpT3BlbkFJJFDDEtkGfYOsenvvhaD546uXh2_2l710_CeLtvidQA"
+organization = 'insert key here'
+open_api_key = "insert key here"
 
 client = OpenAI(
     api_key=open_api_key
